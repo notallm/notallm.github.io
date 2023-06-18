@@ -20,3 +20,7 @@ The blurring lines that used to divide man and machine raises profound philosoph
 ---
 
 Before writing this article, I did the rational action of passing the title and summary into an LLM, not to write the article off what it outputted, but to see what it believed of the problem. It referenced itself numerous times across five paragraphs, undermining itself and its human-esque nature and relating the illusion of sentience to psychological questions. It explained that it is not the LLM to blame, but the human, that what makes us human, the ability to feel, is our most significant vulnerability. Make of that what you wish.
+
+---
+
+The [Hacker News](https://news.ycombinator.com/item?id=36378381) converstation is really interesting, where people argue on both sides. 
