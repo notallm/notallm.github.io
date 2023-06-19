@@ -16,7 +16,7 @@ I'm Aarush Gupta, a student by day, researcher by night, and batman as a side-gi
 
 This site will encompass all my projects, blog posts, and notes. Those will probably all relate to my interests, including artificial (general?) intelligence, NLP, generative AI (hype!), and different applications. My growing interest in electrial engineering may pose a threat to humanity...
 
-For those interested, I like to think I keep a up-to-date [LinkedIn](https://www.linkedin.com/in/aarushgupta001) profile. If you want to see what I'm up to or what I've been up to in the past, that's a good place!
+For those interested, I like to think I keep a up-to-date [LinkedIn](https://www.linkedin.com/in/aarushgupta001) and [GitHub](https://github.com/notallm) profile. If you want to see what I'm up to or what I've been up to in the past, that's a good place!
 
 ## Featured
 
