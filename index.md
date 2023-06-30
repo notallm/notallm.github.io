@@ -12,7 +12,7 @@ limit: 5
 
 This is my corner of the internet... isn't it sick?
 
-I'm Aarush Gupta, a student by day, researcher by night, and batman as a side-gig (Gotham city needs me)
+I'm Aarush Gupta, a student (Irvington High '26) by day, researcher by night, and batman as a side-gig (Gotham city needs me)
 
 This site will encompass all my projects, blog posts, and notes. Those will probably all relate to my interests, including artificial (general?) intelligence, NLP, generative AI (hype!), and different applications. My growing interest in electrial engineering may pose a threat to humanity...
 
