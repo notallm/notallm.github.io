@@ -1,3 +1,15 @@
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+title: Aarush Gupta
+tagline: "Student, researcher, developer, and general AI enthusiast."
+description: "C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms."
+url: "https://aarushgupta.com"
+author: "Aarush Gupta"
+logo: "/assets/img/pfp.png"
+social:
+  links:
+    - https://www.linkedin.com/in/aarushgupta001
+    - https://github.com/notallm
+lang: en_US
