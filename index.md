@@ -12,8 +12,7 @@ Previously founder @ [MemorAI](https://memorai.aarushgupta.com), leading it to ~
 
 AI research @ [Mui Lab](https://sites.google.com/asdrp.org/mui), working on systems to improve AI for everyone.
 
-Running [NXT AI](https://nxtai.aarushgupta.com) in my free time, an intensive summer online nonprofit AI camp for talented youth to help
-students delve deeper into the subject, where I manage operations and focus on growth.
+Running [NXT AI](https://nxtai.aarushgupta.com), where I manage operations, focus on growth, partner with organizations, and mentor batches.
 
 Working on open-source projects for fun, including [Vektor](https://github.com/notallm/vektor) and [Codebuddy](https://github.com/notallm/codebuddy).
 
