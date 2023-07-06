@@ -1,5 +1,6 @@
 ---
 layout: base
+title: Home
 ---
 
 [LinkedIn](https://www.linkedin.com/in/aarushgupta001) &middot; [GitHub](https://github.com/notallm) &middot; [hi@aarushgupta.com](mailto:hi@aarushgupta.com)
