@@ -1,42 +1,30 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-title: "Home"
-layout: home
-limit: 5
+layout: base
 ---
 
-This is my corner of the internet... isn't it sick?
+[LinkedIn](https://www.linkedin.com/in/aarushgupta001) &middot; [GitHub](https://github.com/notallm)
 
-I'm Aarush Gupta, a student (Irvington High '26) by day, researcher by night, and batman as a side-gig (Gotham city needs me)
+C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
-This site will encompass all my projects, blog posts, and notes. Those will probably all relate to my interests, including artificial (general?) intelligence, NLP, generative AI (hype!), and different applications. My growing interest in electrial engineering may pose a threat to humanity...
+Currently a Corporate Engineering Apprentice @ [Google](https://google.com/), learning marketing, engineering, project management, and financial planning.
 
-For those interested, I like to think I keep a up-to-date [LinkedIn](https://www.linkedin.com/in/aarushgupta001) and [GitHub](https://github.com/notallm) profile. If you want to see what I'm up to or what I've been up to in the past, that's a good place!
+Previously founder @ [MemorAI](https://memorai.aarushgupta.com), leading it to ~170 users from Irvington and ~140 others globally.
 
-## Featured
+AI research @ [Mui Lab](https://sites.google.com/asdrp.org/mui), working on systems to improve AI for everyone.
 
-### New: [NXT AI](https://nxtai.aarushgupta.com)
-An intensive 3 week AI camp I founded to help talented youth learn AI
+Running [NXT AI](https://nxtai.aarushgupta.com) in my free time, an intensive summer online nonprofit AI camp for talented youth to help
+students delve deeper into the subject, where I manage operations and focus on growth.
 
-### [MemorAI](https://memorai.aarushgupta.com/)
-My first startup to reimagine learning by reinventing digital flashcards with spaced repetition and AI generated quizzes -- ~170 users from Irvington High School and ~140 others globally before shutting down because of hosting costs (I'm a broke student, what's new?) Investors: hit me up!
+Working on open-source projects for fun, including [Vektor](https://github.com/notallm/vektor) and [Codebuddy](https://github.com/notallm/codebuddy).
 
-### [Vektor](https://github.com/notallm/vektor)
-A mini vector database implementation that intends to be educational and interpretable
+### Posts
+_\*: featured_
 
-### [Codebuddy](https://github.com/notallm/codebuddy)
-Stack overflow search on exception -- about 1M `pip install`'s since it's release, currently registered with Tidelift
+{% assign posts = site.posts %}
+{%- assign date_format = "%b %-d, %Y" -%}
+{%- for post in posts -%}
 
-### [Sanity](https://github.com/notallm/sanity)
-For something between the likes of a toy bootloader or tiny kernel and Arch Linux
+*{{ post.date | date: date_format }}* {% if post.featured == true %}\*{% endif %} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
+<br>
 
-### [Oscar](https://github.com/notallm/oscar)
-A highly efficient garbage collector
-
-## Recent Posts
-<!-- posts -->
+{%- endfor -%}

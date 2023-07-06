@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: monospace;
+    color: #333333;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1.5px solid #aaaaaa;
+}
+
+a:hover {
+    border-bottom: 1.5px solid;
+}
+
+img {
+    width: 120px;
+    border-radius: 10px;
+}
