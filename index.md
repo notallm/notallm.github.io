@@ -7,7 +7,8 @@ title: Home
 
 C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
-Currently a Corporate Engineering Apprentice @ [Google](https://google.com/), learning marketing, engineering, project management, and financial planning.
+Currently a [Corporate Engineering](https://www.youtube.com/watch?v=ohtLXCwC-oU) Apprentice @ [Google](https://google.com/), learning marketing, engineering, 
+project management, and financial planning from professionals to develop powerful tools.
 
 Previously founder @ [MemorAI](https://memorai.aarushgupta.com), leading it to ~170 users from Irvington and ~140 others globally.
 
@@ -18,13 +19,30 @@ Running [NXT AI](https://nxtai.aarushgupta.com), where I manage operations, focu
 Working on open-source projects for fun, including [Vektor](https://github.com/notallm/vektor) and [Codebuddy](https://github.com/notallm/codebuddy).
 
 ### Posts
-_\*: featured_
 
 {% assign posts = site.posts %}
-{%- assign date_format = "%b %-d, %Y" -%}
+{%- assign date_format = "%b %-d" -%}
+
+**Featured**
+<br>
+
 {%- for post in posts -%}
 
-*{{ post.date | date: date_format }}* {% if post.featured == true %}\*{% endif %} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
+{% if post.featured %}
+{{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
 <br>
+
+{% endif %}
+
+{%- endfor -%}
+
+**All**
+<br>
+
+{%- for post in posts -%}
+
+{{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
+<br>
+
 
 {%- endfor -%}
