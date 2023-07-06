@@ -29,26 +29,10 @@ Subscribe to the RSS feed [here](/feed.xml).
 {% assign posts = site.posts %}
 {%- assign date_format = "%b %-d" -%}
 
-**Featured**
-<br>
-
 {%- for post in posts -%}
 
-{% if post.featured %}
-{{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
+{% if post.featured %}\*{% else %}&nbsp;{% endif %}
+{{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }})
 <br>
-
-{% endif %}
-
-{%- endfor -%}
-
-**All**
-<br>
-
-{%- for post in posts -%}
-
-{{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }}) 
-<br>
-
 
 {%- endfor -%}
