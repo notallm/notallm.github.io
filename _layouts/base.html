@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang = "{{ site.lang }}">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset = "utf-8">
+  <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
   <meta name = "viewport" content = "width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel = "stylesheet" href = "{{ "/assets/css/main.css" | relative_url }}">
@@ -10,7 +10,7 @@
   <link rel = "icon" href = "{{ "/assets/img/pfp.png" | relative_url }}">
 </head>
 <body>
-    <img src = "{{ "/assets/img/pfp.png" | relative_url }}">
+    <img src = "{{ "/assets/img/pfp.png" | relative_url }}" alt = "profile image">
     <h3>Aarush Gupta</h3>
     {{ content }}
 </body>
