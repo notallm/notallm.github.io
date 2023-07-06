@@ -21,6 +21,8 @@ Developing open-source projects for fun, [Vektor](https://github.com/notallm/vek
 
 Previously developed tools across many domains of computer science, including [Sanity](https://github.com/notallm/sanity) and [Oscar](https://github.com/notallm/oscar).
 
+Fun fact: this site gets 60k unique viewers and 1.6m requests annually (according to Cloudflare)
+
 ### Posts
 
 Subscribe to the RSS feed [here](/feed.xml).
