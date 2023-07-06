@@ -23,6 +23,8 @@ Previously developed tools across many domains of computer science, including [S
 
 ### Posts
 
+Subscribe to the RSS feed [here](/feed.xml).
+
 {% assign posts = site.posts %}
 {%- assign date_format = "%b %-d" -%}
 
