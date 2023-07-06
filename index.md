@@ -17,9 +17,8 @@ AI for everyone.
 
 Running [NXT AI](https://nxtai.aarushgupta.com), where I manage operations, focus on growth, partner with organizations, and mentor batches.
 
-Developing open-source projects for fun, [Vektor](https://github.com/notallm/vektor) and [Codebuddy](https://github.com/notallm/codebuddy).
-
-Previously developed tools across many domains of computer science, including [Sanity](https://github.com/notallm/sanity) and [Oscar](https://github.com/notallm/oscar).
+Developing open-source projects for fun, including [Vektor](https://github.com/notallm/vektor), [Codebuddy](https://github.com/notallm/codebuddy),
+[Sanity](https://github.com/notallm/sanity), and [Oscar](https://github.com/notallm/oscar).
 
 Fun fact: this site gets 60k unique viewers and 1.6m requests annually (according to Cloudflare)
 
