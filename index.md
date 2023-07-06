@@ -2,7 +2,7 @@
 layout: base
 ---
 
-[LinkedIn](https://www.linkedin.com/in/aarushgupta001) &middot; [GitHub](https://github.com/notallm)
+[LinkedIn](https://www.linkedin.com/in/aarushgupta001) &middot; [GitHub](https://github.com/notallm) &middot; [hi@aarushgupta.com](mailto:hi@aarushgupta.com)
 
 C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
