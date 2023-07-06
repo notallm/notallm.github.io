@@ -7,6 +7,7 @@ body {
     margin: auto;
     margin-top: 7vh;
     margin-bottom: 7vh;
+    padding: 20px;
     -webkit-font-smoothing: antialiased;
 }
 
