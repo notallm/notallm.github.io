@@ -10,8 +10,16 @@
   <link rel = "icon" href = "{{ "/assets/img/pfp.png" | relative_url }}">
 </head>
 <body>
-    <img src = "{{ "/assets/img/pfp.png" | relative_url }}" alt = "profile image">
-    <h3>Aarush Gupta</h3>
+    <center>
+        <img src = "{{ "/assets/img/pfp.png" | relative_url }}" alt = "profile image">
+        <h3>Aarush Gupta</h3>
+        {% for link in page.header_links %}
+            <a href = "{{ link.url }}">{{ link.name }}</a>
+            {% if forloop.last == false %}
+                &middot;
+            {% endif %}
+        {% endfor %}
+    </center>
     {{ content }}
 </body>
 </html>

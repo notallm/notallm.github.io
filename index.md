@@ -1,9 +1,14 @@
 ---
 layout: base
 title: Home
+header_links:
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/aarushgupta001
+    - name: GitHub
+      url: https://github.com/notallm
+    - name: hi@aarushgupta.com
+      url: mailto:hi@aarushgupta.com
 ---
-
-[LinkedIn](https://www.linkedin.com/in/aarushgupta001) &middot; [GitHub](https://github.com/notallm) &middot; [hi@aarushgupta.com](mailto:hi@aarushgupta.com)
 
 C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
