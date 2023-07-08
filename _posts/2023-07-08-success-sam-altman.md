@@ -81,4 +81,4 @@ impressing others, while Altman describes two pitfalls. First, it causes people 
 
 ---
 
-The [Hacker News](https://news.ycombinator.com/item?id=36643754) discussion was quite interesting, for many people gave their own thoughts and ideas about what success means and how they think one should achieve it.
+The [Hacker News](https://news.ycombinator.com/item?id=36643754) discussion.
