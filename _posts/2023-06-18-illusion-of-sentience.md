@@ -24,4 +24,4 @@ Before writing this article, I did the rational action of passing the title and 
 
 ---
 
-The [Hacker News](https://news.ycombinator.com/item?id=36378381) converstation is really interesting, where people argue on both sides. 
+The [Hacker News](https://news.ycombinator.com/item?id=36378381) converstation.
