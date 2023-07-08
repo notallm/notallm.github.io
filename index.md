@@ -32,7 +32,7 @@ Fun fact: this site gets 60k unique viewers and 1.6m requests annually (accordin
 Subscribe to the RSS feed [here](/feed.xml).
 
 {% assign posts = site.posts %}
-{%- assign date_format = "%b %-d" -%}
+{%- assign date_format = "%b %d" -%}
 
 {%- for post in posts -%}
 
