@@ -7,7 +7,7 @@ layout: base
 </center>
 
 <h3>{{ page.title | escape }}</h3>
-{%- assign date_format = "%b %-d, %Y" -%}
+{%- assign date_format = "%b %d, %Y" -%}
 <p>{{ page.date | date: date_format }} {% if page.featured %}&middot; Featured post{% endif %}</p>
 
 {{ content }}
