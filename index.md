@@ -36,7 +36,7 @@ Subscribe to the RSS feed [here](/feed.xml).
 
 {%- for post in posts -%}
 
-{% if post.featured %}\*{% else %}&nbsp;{% endif %}
+<!-- {% if post.featured %}\*{% else %}&nbsp;{% endif %} -->
 {{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }})
 <br>
 
