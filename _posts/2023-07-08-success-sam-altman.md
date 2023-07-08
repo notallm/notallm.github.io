@@ -78,3 +78,7 @@ impressing others, while Altman describes two pitfalls. First, it causes people 
 ---
 
 “Success is the sum of small efforts — repeated day in and day out” - Robert Collier, a self-help writer known for his book *The Secret of the Ages*.
+
+---
+
+The [Hacker News](https://news.ycombinator.com/item?id=36643754) discussion was quite interesting, for many people gave their own thoughts and ideas about what success means and how they think one should achieve it.
