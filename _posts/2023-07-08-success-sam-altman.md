@@ -52,8 +52,9 @@ Essentially, be ambitious and work on a problem that drives you
 and those around you. Despite the fact that curiosity killed the cat, it also led to many of the top startups. Be curious, and do not second guess intrinsic motivations.
 
 **9. Be willful**
+
 People have the capability to create meaningful results. However, 
-drag forces Like self-doubt and giving up impedes what could happen. Being willful means wanting more and having an internal drive to go towards it. A great example is asking for what you want, which might not always work, but like point 5, the loss is low, but the gains are huge. Altman relates this to Airbnb, which had will drive it through tough times.
+drag forces like self-doubt and giving up impedes what could happen. Being willful means wanting more and having an internal drive to go towards it. A great example is asking for what you want, which might not always work, but like point 5, the loss is low, but the gains are huge. Altman relates this to Airbnb, which had will drive it through tough times.
 
 **10. Be hard to compete with**
 
