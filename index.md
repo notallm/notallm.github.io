@@ -10,7 +10,7 @@ header_links:
       url: mailto:hi@aarushgupta.com
 ---
 
-Class of 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
+Class of 2026 @ Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
 Currently a Corporate Engineering Apprentice @ [Google](https://google.com/), learning marketing, engineering, 
 project management, and financial planning from professionals to develop powerful tools.
