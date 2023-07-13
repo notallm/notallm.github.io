@@ -25,7 +25,7 @@ Running [NXT AI](https://nxtai.aarushgupta.com), where I manage operations, focu
 Developing open-source projects for fun, including [Vektor](https://github.com/notallm/vektor), [Codebuddy](https://github.com/notallm/codebuddy),
 [Sanity](https://github.com/notallm/sanity), and [Oscar](https://github.com/notallm/oscar).
 
-Fun fact: this site gets 60k unique viewers and 1.6m requests annually.
+Fun fact: this site gets 60k unique viewers and 1.6m requests annually... TODO: run ads
 
 ### Posts
 
