@@ -2,6 +2,7 @@
 layout: post
 title: "How to Succeed: Lessons from Sam Altman"
 author: "Aarush Gupta"
+hn: 36643754
 ---
 
 This is an escape from my usual stream of posts, for I wanted to attempt to expand the horizons of my routine writing.
@@ -79,7 +80,3 @@ impressing others, while Altman describes two pitfalls. First, it causes people 
 ---
 
 “Success is the sum of small efforts — repeated day in and day out” - Robert Collier, a self-help writer known for his book *The Secret of the Ages*.
-
----
-
-The [Hacker News](https://news.ycombinator.com/item?id=36643754) discussion.
