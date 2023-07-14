@@ -6,6 +6,8 @@ header_links:
       url: https://www.linkedin.com/in/aarushgupta001
     - name: GitHub
       url: https://github.com/notallm
+    - name: Twitter
+      url: https://twitter.com/notallm
     - name: hi@aarushgupta.com
       url: mailto:hi@aarushgupta.com
 ---
