@@ -14,4 +14,6 @@ layout: base
 
 <hr>
 
-Comment @ <a href = "https://news.ycombinator.com/item?id={{ page.hn }}">Hacker News</a>.
+{% if page.hn %}
+    Comment @ <a href = "https://news.ycombinator.com/item?id={{ page.hn }}">Hacker News</a>.
+{% endif %}
