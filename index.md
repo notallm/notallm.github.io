@@ -6,11 +6,13 @@ header_links:
       url: https://www.linkedin.com/in/aarushgupta001
     - name: GitHub
       url: https://github.com/notallm
+    - name: Twitter
+      url: https://twitter.com/notallm
     - name: hi@aarushgupta.com
       url: mailto:hi@aarushgupta.com
 ---
 
-C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
+Class of 2026 @ Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
 
 Currently a Corporate Engineering Apprentice @ [Google](https://google.com/), learning marketing, engineering, 
 project management, and financial planning from professionals to develop powerful tools.
@@ -25,18 +27,18 @@ Running [NXT AI](https://nxtaicamp.com), where I manage operations, focus on gro
 Developing open-source projects for fun, including [Vektor](https://github.com/notallm/vektor), [Codebuddy](https://github.com/notallm/codebuddy),
 [Sanity](https://github.com/notallm/sanity), and [Oscar](https://github.com/notallm/oscar).
 
-Fun fact: this site gets 60k unique viewers and 1.6m requests annually (according to Cloudflare)
+Fun fact: this site gets 12.52k unique visitors and 38.03k requests monthly... TODO: run ads
 
 ### Posts
 
 Subscribe to the RSS feed [here](/feed.xml).
 
 {% assign posts = site.posts %}
-{%- assign date_format = "%b %-d" -%}
+{%- assign date_format = "%b %d" -%}
 
 {%- for post in posts -%}
 
-{% if post.featured %}\*{% else %}&nbsp;{% endif %}
+<!-- {% if post.featured %}\*{% else %}&nbsp;{% endif %} -->
 {{ post.date | date: date_format }} [{{ post.title | escape }}]({{ post.url | relative_url }})
 <br>
 

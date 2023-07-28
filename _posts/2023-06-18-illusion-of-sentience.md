@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring the Illusion of Sentience in Large Language Models"
 author: "Aarush Gupta"
-featured: true
+hn: 36378381
 ---
 
 After the release of the seminal film *The Terminator* (1984), the most prominent question in advancements in artificial intelligence was whether our future would be met with a Skynet-esque doom. An astonishing and unbelievable 39 years later, the looming question is approaching reality. Companies, organizations, and individuals now have the power to interact, create, and integrate these models into their daily lives. With every conversation with the models, the notions generated and the flow of words make it increasingly apparent -- the models we considered toys with the release of the Transformer architecture have surpassed the earlier realization. They exhibit a remarkable ability to generate coherent and contextually relevant responses, a trait that used to be the standard of what it meant to be human. Simply put, the argument that only humans can comprehend and respond against the notion of a robot uprising has been rendered null. 
@@ -22,7 +22,3 @@ The blurring lines that used to divide man and machine raises profound philosoph
 ---
 
 Before writing this article, I did the rational action of passing the title and summary into an LLM, not to write the article off what it outputted, but to see what it believed of the problem. It referenced itself numerous times across five paragraphs, undermining itself and its human-esque nature and relating the illusion of sentience to psychological questions. It explained that it is not the LLM to blame, but the human, that what makes us human, the ability to feel, is our most significant vulnerability. Make of that what you wish.
-
----
-
-The [Hacker News](https://news.ycombinator.com/item?id=36378381) converstation is really interesting, where people argue on both sides. 
