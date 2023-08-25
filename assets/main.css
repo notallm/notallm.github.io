@@ -3,21 +3,25 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 10px;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #333333;
 }
 
 a:hover {
-    border: none;
+    color: black;
+    border-bottom: 2px solid black;
 }
 
 header {
     font-size: 18px;
     margin: 60px 0px;
+    color: black;
 }
 
 nav > a {
@@ -26,6 +30,11 @@ nav > a {
     vertical-align: baseline;
     margin-left: 10px;
     border: none;
+    color: #333333;
+}
+
+nav > a:hover {
+    border: none
 }
 
 main {
