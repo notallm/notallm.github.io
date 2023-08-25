@@ -1,43 +1,19 @@
 ---
 layout: base
-title: Home
-header_links:
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/aarushgupta001
-    - name: GitHub
-      url: https://github.com/notallm
-    - name: X
-      url: https://twitter.com/notallm
-    - name: hi@aarushgupta.com
-      url: mailto:hi@aarushgupta.com
 ---
 
-Class of 2026 @ Irvington High, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms.
+I am a student at Irvington High School (Class of 2026), interested in A(G)I, alignment, and high-performant computing.
 
-Currently a Corporate Engineering Apprentice @ [Google](https://google.com/), learning engineering and product management.
+I am currently leading a team of 5 and working on developing [ClassFrame](https://classfra.me), as well as doing research
+on transformer-based systems with [Dr. Phil Mui](https://sites.google.com/asdrp.org/mui/who).
 
-Leading a team of 5 and developing the full-stack product behind [ClassFrame](https://classfra.me).
+I am nearing the end of my summer apprenticeship at [Google](https://google.com), where I learned engineering and product
+management from the Corprate Engineering team.
 
-Previously founder @ [MemorAI](https://memorai.aarushgupta.com), leading it to ~170 users from Irvington and ~140 others globally.
+Every summer, I run [NXT AI](https://nxtaicamp.com), an online nonprofit AI camp for talented youth, where I manage operations,
+marketing, sponserships, and mentor cohorts.
 
-AI research @ [Mui Lab](https://sites.google.com/asdrp.org/mui), working with [Dr. Phil Mui](https://sites.google.com/asdrp.org/mui/who) on LLMs
-and transformers.
+I previously ran [MemorAI](https://memorai.aarushgupta.com), where I started and scaled it to ~170 users from Irvington and ~140
+others globally.
 
-Running [NXT AI](https://nxtaicamp.com), where I manage operations, focus on growth, partner with organizations, and mentor batches.
-
-Developing open-source projects for fun, including [Vektor](https://github.com/notallm/vektor), [Codebuddy](https://github.com/notallm/codebuddy),
-[Sanity](https://github.com/notallm/sanity), and [Oscar](https://github.com/notallm/oscar).
-
-### Posts
-
-*New posts incoming soon*. Subscribe to the RSS feed [here](/feed.xml).
-
-{% assign posts = site.posts %}
-
-{%- for post in posts -%}
-
-<!-- {% if post.featured %}\*{% else %}&nbsp;{% endif %} -->
-{{ post.date | date: "%b %d" }} [{{ post.title | escape }}]({{ post.url | relative_url }})
-<br>
-
-{%- endfor -%}
+In my free time, I also develop open-source projects on my [GitHub](https://github.com/notallm).

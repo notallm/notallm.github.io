@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang = "{{ site.lang }}">
+<html lang = "en">
 <head>
-  <meta charset = "utf-8">
-  <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel = "stylesheet" href = "{{ "/assets/css/main.css" | relative_url }}">
-  <title>Aarush Gupta</title>
-  <link rel = "icon" href = "{{ "/assets/img/pfp.png" | relative_url }}">
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "{{ "/assets/main.css" | relative_url }}">
+    <title>Aarush Gupta</title>
 </head>
 <body>
-    <center>
-        <img src = "{{ "/assets/img/pfp.png" | relative_url }}" alt = "profile image">
-        <h3>Aarush Gupta</h3>
-        {% for link in page.header_links %}
-            <a href = "{{ link.url }}">{{ link.name }}</a>
-            {% if forloop.last == false %}
-                &middot;
-            {% endif %}
-        {% endfor %}
-    </center>
-    {{ content }}
-    <script async src = "https://www.googletagmanager.com/gtag/js?id=G-TCTC6JGRXF"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag("js", new Date());
-        gtag("config", "G-TCTC6JGRXF");
-    </script>
+    <header>
+        <nav>
+            <a href = "https://twitter.com/notallm" target = "_blank"><i class = "bi bi-twitter"></i></a>
+            <a href = "https://github.com/notallm" target = "_blank"><i class = "bi bi-github"></i></a>
+            <a href = "https://linkedin.com/in/aarushgupta001" target = "_blank"><i class = "bi bi-linkedin"></i></a>
+            <a href = "mailto:hi@aarushgupta.com" target = "_blank"><i class = "bi bi-envelope-fill"></i></a>
+        </nav>
+        <p>Aarush Gupta</p>
+    </header>
+    <main>
+        {{ content }}
+    </main>
 </body>
 </html>

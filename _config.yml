@@ -4,10 +4,9 @@ plugins:
 
 title: Aarush Gupta
 tagline: ""
-description: "C/o 2026 at Irvington High School, interested in A(G)I, NLP, generative AI, alignment, and applications of algorithms."
+description: "Personal website"
 url: "https://aarushgupta.com"
 author: "Aarush Gupta"
-logo: "/assets/img/pfp.png"
 social:
   links:
     - https://www.linkedin.com/in/aarushgupta001

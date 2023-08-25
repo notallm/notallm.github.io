@@ -1,0 +1,33 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid;
+}
+
+a:hover {
+    border: none;
+}
+
+header {
+    font-size: 18px;
+    margin: 60px 0px;
+}
+
+nav > * {
+    display: inline-block;
+    float: right;
+    vertical-align: baseline;
+    margin-left: 10px;
+    border: none;
+}
+
+main {
+    line-height: 24px;
+}
