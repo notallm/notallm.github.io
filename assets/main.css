@@ -20,7 +20,7 @@ header {
     margin: 60px 0px;
 }
 
-nav > * {
+nav > a {
     display: inline-block;
     float: right;
     vertical-align: baseline;
