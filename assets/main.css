@@ -25,18 +25,40 @@ header {
 }
 
 nav > a {
-    display: inline-block;
     float: right;
+    border: none;
+    margin-left: 30px;
+}
+
+nav > a:hover {
+    border: none;
+}
+
+footer {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+footer > a {
+    display: inline;
     vertical-align: baseline;
-    margin-left: 10px;
+    margin-left: 50px;
     border: none;
     color: #333333;
 }
 
-nav > a:hover {
+footer > a:hover {
     border: none
 }
 
 main {
     line-height: 24px;
+}
+
+.post-date {
+    float: right;
+}
+
+hr {
+    margin: 25px 0px;
 }

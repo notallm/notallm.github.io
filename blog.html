@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<h1>Blog</h1>
+
+<p><i>New posts coming soon.</i> Subscribe to the RSS feed <a href = "/feed.xml">here</a>.</p>
+
+{% assign posts = site.posts %}
+{%- assign date_format = "%b %d" -%}
+
+{%- for post in posts -%}
+    <span class = "post-date">{{ post.date | date: date_format }}</span>
+    <a href = "{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    <br>
+{%- endfor -%}
