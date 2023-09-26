@@ -18,3 +18,10 @@ I previously ran [MemorAI](https://memorai.aarushgupta.com), where I started and
 others globally.
 
 In my free time, I also develop open-source projects on my [GitHub](https://github.com/notallm).
+
+<footer>
+    <a href = "https://twitter.com/notallm" target = "_blank"><i class = "bi bi-twitter"></i></a>
+    <a href = "https://github.com/notallm" target = "_blank"><i class = "bi bi-github"></i></a>
+    <a href = "https://linkedin.com/in/aarushgupta001" target = "_blank"><i class = "bi bi-linkedin"></i></a>
+    <a href = "mailto:hi@aarushgupta.com" target = "_blank"><i class = "bi bi-envelope-fill"></i></a>
+</footer>
