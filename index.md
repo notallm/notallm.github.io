@@ -4,7 +4,7 @@ layout: base
 
 I am a student at Irvington High School (Class of 2026), interested in A(G)I, alignment, and high-performant computing.
 
-I am currently the founder at [Topaz](https://usetopaz.com), building analytics for communities, as well as doing research
+I am currently the founder at [Topaz](https://www.usetopaz.com), building analytics for communities, as well as doing research
 on transformer-based systems with [Dr. Phil Mui](https://sites.google.com/asdrp.org/mui/who).
 
 I previously had a summer apprenticeship at [Google](https://google.com), where I learned engineering and product
