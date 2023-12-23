@@ -13,6 +13,7 @@ header {
 
 hr {
     margin: 25px 0px;
+    border-top: 2px solid black;
 }
 
 * {

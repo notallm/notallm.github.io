@@ -1,0 +1,41 @@
+#- title: 
+#  bio: 
+#  stats: 
+#  links: 
+#    - shortname: 
+#      url: 
+
+- title: ClassFrame 
+  bio: Collaborative work platform for assignments and questions.
+  stats: Developed during my Google apprenticeship (summer `23). Got it to 3 high schools and 100+ students in a week of launch, with essentially no marketing.
+  links: 
+    - shortname: google presentation 
+      url: https://docs.google.com/presentation/d/1ezcneCDK3lyAT8p2slv2K-VFFDsd6GJeUWk0WVAtKew/edit?usp=sharing
+
+- title: MemorAI
+  bio: AI-generated flashcards and study tools.
+  stats: Got it to ~170 Irvington students and ~140 others globally bootstrapped in 3 months
+  links: 
+    - shortname: website
+      url: http://memorai.aarushgupta.com
+
+- title: Vektor
+  bio: A mini vector database implementation that intends to be educational and interpretable.
+  stats: A full-fledged ~150 line implementation of a vector database with BERT, LSH, and Jaccard similarity for sub-linear line-complexity on searches.
+  links: 
+    - shortname: code
+      url: https://github.com/notallm/vektor
+
+- title: Sanity
+  bio: For something between the likes of a toy bootloader or tiny kernel and Arch Linux.
+  stats: Features a GDT/IDT, PIC, pages, fault handler, heap, task queue, and a rudimentary keyboard driver. Made to remain small and to be the easiest system to add new architectures to.
+  links: 
+    - shortname: code
+      url: https://github.com/notallm/sanity
+
+- title: Oscar
+  bio: A highly efficient garbage collector for C.
+  stats: Essetially a sub-200 line implementation of mark-and-sweep with some neat tweaks.
+  links: 
+  - shortname: code
+    url: https://github.com/notallm/oscar

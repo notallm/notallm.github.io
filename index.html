@@ -14,20 +14,26 @@ layout: base
 </center>
 <br><br>
 <div>
-    student at Irvington High School (c/o 26), interested in A(G)I, alignment, and high-performant computing.
-    <br><br>
-    founder at Acoma AI, researching ML models to solve financial markets.
-    <br><br>
-    founder at <a href = "https://usetopaz.com/">Topaz Analytics</a>, building analytics for communities.
-    <br><br>
-    research on transformer-based systems with <a href = "https://sites.google.com/asdrp.org/mui/who">Phil Mui, PhD</a>.
-    <br><br>
-    previously summer apprentice at Google, learned AI, engineering, system design, UI/UX, and product management.
-    developed ClassFrame, a collaborative work platform for assignments and questions. 
-    <br><br>
-    run <a href = "https://nxtaicamp.com/">NXT AI camp</a> every summer, an accessible, free, non-profit, online AI camp.
-    <br><br>
-    played around and made <a href = "https://memorai.aarushgupta.com/">MemorAI</a> for AI generated flashcards and study tools. 
-    got ~170 Irvington students + ~140 more globally.
-</div>
+    I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms.
+    I love to work on research, product, and nice problems. I am also class of '26 at Irvington High School.
 
+    <br><br>
+    
+    I am currently working on <a href = "https://usetopaz.com">Topaz Analytics</a>, analytics for communities.
+    Every summer, I manage <a href = "https://nxtaicamp.com">NXT AI Camp</a>, an accessible, free, non-profit, online AI camp.
+
+
+    <h3><i>PAST WORK</i></h3>
+    <hr>
+    {% for work in site.data.work %}
+        <div style = "float: right">
+            {% for link in work.links %}
+                <a href = "{{ link.url }}">{{ link.shortname }}</a>
+            {% endfor %}
+        </div>
+        <b>{{ work.title }}</b>
+        <p>{{ work.bio }}</p>
+        <p>{{ work.stats }}</p>
+        <hr>
+    {% endfor %}
+</div>
