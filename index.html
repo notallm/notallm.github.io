@@ -24,7 +24,6 @@ layout: base
 
 
     <h3><i>PAST WORK</i></h3>
-    <hr>
     {% for work in site.data.work %}
         <div style = "float: right">
             {% for link in work.links %}
@@ -34,6 +33,6 @@ layout: base
         <b>{{ work.title }}</b>
         <p>{{ work.bio }}</p>
         <p>{{ work.stats }}</p>
-        <hr>
+        <br>
     {% endfor %}
 </div>
