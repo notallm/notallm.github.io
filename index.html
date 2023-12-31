@@ -2,37 +2,31 @@
 layout: base
 ---
 
-<center>
-    <h1 style = "display: inline"><i>AARUSH GUPTA</i></h1>
-    <p style = "display: inline"> is learning and building</p>
-</center>
+<div style = "float: right">
+</div>
+<b>Aarush Gupta</b>
+
+<br><br><br>
+<div>
+    I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms.
+    I love to work on research, product, and nice problems. I am also class of '26 at Irvington High School.
+    <br><br>
+    I am currently working on <a href = "https://usetopaz.com">Topaz Analytics</a>, analytics for communities.
+    Every summer, I manage <a href = "https://nxtaicamp.com">NXT AI Camp</a>, an accessible, free, non-profit, online AI camp.
+</div>
+<br><br>
+
+{% for work in site.data.work %}
+    <p style = "float: right"><i>{{ work.bio }}</i></p>
+    <p><b><a href = "{{ work.url }}">{{ work.title }}</a></b></p>
+    <p>{{ work.stats }}</p>
+    <br>
+{% endfor %}
+
+<br><br>
 <center>
     <a href = "https://linkedin.com/in/aarushgupta001">linkedin</a> &middot;
     <a href = "https://github.com/notallm">github</a> &middot;
     <a href = "https://twitter.com/notallm">x</a> &middot;
     <a href = "mailto:hi@aarushgupta.com">hi@aarushgupta.com</a>
 </center>
-<br><br>
-<div>
-    I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms.
-    I love to work on research, product, and nice problems. I am also class of '26 at Irvington High School.
-
-    <br><br>
-    
-    I am currently working on <a href = "https://usetopaz.com">Topaz Analytics</a>, analytics for communities.
-    Every summer, I manage <a href = "https://nxtaicamp.com">NXT AI Camp</a>, an accessible, free, non-profit, online AI camp.
-
-
-    <h3><i>PAST WORK</i></h3>
-    {% for work in site.data.work %}
-        <div style = "float: right">
-            {% for link in work.links %}
-                <a href = "{{ link.url }}">{{ link.shortname }}</a>
-            {% endfor %}
-        </div>
-        <b>{{ work.title }}</b>
-        <p>{{ work.bio }}</p>
-        <p>{{ work.stats }}</p>
-        <br>
-    {% endfor %}
-</div>
