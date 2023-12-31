@@ -27,5 +27,5 @@
 
 - title: Oscar
   bio: Efficient garbage collector for C.
-  stats: Essetially a sub-200 line implementation of mark-and-sweep with some neat tweaks.
+  stats: Essentially a sub-200 line implementation of mark-and-sweep with some neat tweaks.
   url: https://github.com/notallm/oscar
