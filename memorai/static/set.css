@@ -1,0 +1,165 @@
+.set_form__delete_set {
+    float: right;
+    width: 200px;
+    background-color: white;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    padding: 5px 0;
+}
+
+.set_form__delete_set:hover {
+    background-color: var(--accent);
+    color: white;
+    padding: 5px 0;
+}
+
+.set_form__delete_set__cnfrm {
+    position: absolute;
+    left: 37.5%;
+    width: 200px;
+}
+
+.set_edit_button {
+    float: right;
+    width: 200px;
+}
+
+.set_current_card {
+    padding-right: 10px;
+    float: right;
+}
+
+.set_flipcard {
+    width: 95%;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.set_flipcard__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.set_flipcard:hover .set_flipcard__inner {
+    transform: rotateX(180deg);
+}
+
+.set_flipcard__front, .set_flipcard__back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 2px solid var(--accent);
+    border-radius: 20px;
+    font-size: 22.5px;
+    word-break: break-word;
+    padding: 0 15px;
+}
+
+.set_flipcard__back {
+    transform: rotateX(180deg);
+}
+
+.set_control_button {
+    width: 70%;
+}
+
+.set_control_button__dim {
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.set_spaced_button {
+    width: 5.25%;
+    color: var(--accent);
+    background-color: white;
+    border: 2px solid var(--accent);
+}
+
+.set_spaced_button:hover {
+    color: white;
+    background-color: var(--accent);
+    padding: 5px 0;
+}
+
+.set_spaced_button__active {
+    color: white;
+    background-color: var(--accent);
+}
+
+.set_questions_header {
+    margin-top: 40px;
+}
+
+.done {
+    text-align: center;
+}
+
+.done_header {
+    color: var(--accent);
+}
+
+.hidden {
+    display: none;
+}
+
+/* -------------------------- */
+
+.set_form__add_msg {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.set_form__input {
+    width: 95%;
+    padding: 12px 20px;
+    border: 2px solid var(--mid-gray);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.set_form__input:focus {
+    outline: none;
+    border: 2px solid var(--accent);
+}
+
+.set_form__que_input, .set_form__ans_input {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.set_form__ans_input {
+    float: right;
+}
+
+.set_form__delete {
+    float: right;
+    margin-left: 15px;
+    padding: 10px 15px;
+}
+
+.set_form__delete:hover {
+    float: right;
+    margin-left: 15px;
+    padding: 8px 13px;
+}
+
+.set_form__controls {
+    width: 32.75%;
+}
+
+.set_form__new {
+    margin-top: 10px;
+}
+
+.set_form__limit {
+    margin-top: 30px;
+    text-align: center;
+}

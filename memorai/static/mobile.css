@@ -1,0 +1,126 @@
+@media (max-width: 450px) {
+    .nav_img {
+        display: none;
+    }
+
+    .nav_text {
+        width: 100%;
+    }
+
+    .nav_block {
+        margin-left: -10px !important;
+    }
+
+    .nav_text {
+        margin-left: -20px !important;
+    }
+
+    .content {
+        padding: 0 12px;
+    }
+
+    .next_submit {
+        width: 150px !important;
+    }
+
+    .next_input {
+        width: 40% !important;
+    }
+
+    .next_input__user__mobile {
+        width: 80% !important;
+    }
+    
+    .next_submit__user {
+        width: 94% !important;
+    }
+
+    .next_set_create__button {
+        width: 170px !important;
+    }
+
+    #next_set_create, .next_set_create {
+        padding: 50px !important;
+        width: 70%;
+    }
+
+    .next_input__mobile {
+        width: 120px !important;
+    }
+
+    .next_submit__mobile {
+        width: 100px;
+    }
+
+    .next_cancel {
+        margin-top: 10px !important;
+    }
+
+    .set_edit_button {
+        width: 150px !important;
+    }
+
+    .set_flipcard {
+        width: 90% !important;
+    }
+
+    .set_control_button {
+        width: 40% !important;
+    }
+
+    .set_spaced_button {
+        width: 10.5% !important;
+    }
+
+    .set_form__input {
+        width: 87.5% !important;
+    }
+    
+    .set_form__input__mobile {
+        width: 29% !important;
+    }
+
+    .set_form__delete_set {
+        margin-bottom: 20px;
+        width: 150px !important;
+    }
+
+    .set_form__controls {
+        width: 100% !important;
+    }
+
+    .set_form__delete_set__cnfrm {
+        left: 20px !important;
+        width: 90% !important;
+    }
+
+    .landing_content {
+        padding: 0 20px;
+    }
+
+    .hook_title {
+        font-size: 75px !important;
+    }
+
+    .hook_button {
+        width: 350px !important;
+    }
+
+    .how_img {
+        width: 100% !important;
+    }
+
+    .home_img {
+        margin: 0;
+        margin-bottom: 50px;
+        width: 95% !important;
+    }
+
+    .hook_button__sec {
+        width: 350px !important;
+    }
+
+    .search {
+        width: 92.5% !important;
+    }
+}

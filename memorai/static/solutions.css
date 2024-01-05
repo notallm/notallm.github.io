@@ -1,0 +1,36 @@
+.title {
+    width: 100%;
+}
+
+.solution {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.solution_img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.return {
+    text-align: center;
+}
+
+.hidden {
+    user-select: none;
+    color: #FFFFFF;
+    font-size: 0;
+}
+
+.search {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid var(--mid-gray);
+    border-radius: 10px;
+}
+
+.search:focus {
+    border: 2px solid var(--accent);
+    outline: none;
+}

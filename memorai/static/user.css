@@ -1,0 +1,81 @@
+.card_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.set_card {
+    margin-right: 10px;
+}
+
+.next_finished {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.next_set_create__button {
+    float: right;
+    width: 250px;
+}
+
+#next_set_create, .next_set_create {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    visibility: hidden;
+    pointer-events: none;
+    padding: 100px;
+    padding-bottom: 140px;
+}
+
+#next_set_create:target, .next_set_create__hidden {
+    visibility: visible;
+    pointer-events: auto;
+    background-color: white;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+}
+
+.next_cancel {
+    float: right;
+    padding: 10px 15px;
+    background-color: white;
+    color: var(--accent);
+}
+
+.next_cancel:hover {
+    padding: 8px 13px;
+}
+
+.next_input {
+    width: 57.5%;
+    padding: 12px 20px;
+    border: 2px solid var(--mid-gray);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.next_input:focus {
+    outline: none;
+    border: 2px solid var(--accent);
+}
+
+.next_input__user {
+    width: 94%;
+}
+
+.next_submit {
+    width: 100%;
+    height: 40px;
+}
+
+.next_submit__user {
+    margin-top: 20px
+}
+
+.next_submit__search {
+    float: right;
+    width: 250px;
+    height: 40px;
+}
