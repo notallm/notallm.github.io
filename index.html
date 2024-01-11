@@ -9,7 +9,7 @@ layout: base
 <br><br><br>
 <div>
     I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms.
-    I love to work on research, product, and nice problems. I am also class of '26 at Irvington High School.
+    I love to work on research, product, and nice problems.
     <br><br>
     I am currently working on <a href = "https://usetopaz.com">Topaz Analytics</a>, analytics for communities.
     Every summer, I manage <a href = "https://nxtaicamp.com">NXT AI Camp</a>, an accessible, free, non-profit, online AI camp.
@@ -17,8 +17,8 @@ layout: base
 <br><br>
 
 {% for work in site.data.work %}
-    <p style = "float: right"><i>{{ work.bio }}</i></p>
     <p><b><a href = "{{ work.url }}">{{ work.title }}</a></b></p>
+    <i>{{ work.bio }}</i>
     <p>{{ work.stats }}</p>
     <br>
 {% endfor %}

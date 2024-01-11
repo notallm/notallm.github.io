@@ -8,12 +8,12 @@
 - title: ClassFrame 
   bio: Collaborative work platform for assignments and questions.
   stats: Developed during my Google apprenticeship (summer `23). Got it to 3 high schools and 100+ students in a week of launch, with essentially no marketing.
-  url: https://docs.google.com/presentation/d/1ezcneCDK3lyAT8p2slv2K-VFFDsd6GJeUWk0WVAtKew/edit?usp=sharing
+  url: https://aarushgupta.com/classframe
 
 - title: MemorAI
   bio: AI-generated flashcards and study tools.
   stats: Got it to ~170 Irvington students and ~140 others globally bootstrapped in 3 months
-  url: http://memorai.aarushgupta.com
+  url: https://aarushgupta.com/memorai
 
 - title: Vektor
   bio: Educational and interpretable vector database implementation.
