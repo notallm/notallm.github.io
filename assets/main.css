@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding: 50px;
     font-family: sans-serif;
+    font-weight: lighter;
 }
 
 header {
@@ -16,24 +21,36 @@ hr {
     border-top: 2px solid black;
 }
 
-* {
-    box-sizing: border-box;
+a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: black;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
+
+.title {
+    margin: 0;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.work {
+    margin-bottom: 10px;
+}
+
+.work__title {
+    text-decoration: none;
+}
+
+.work__bio {
+    float: right;
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
+    .work {
+        margin-bottom: 20px;
+    }
+
+    .work__bio {
+        float: none;
+        display: block;
     }
 }

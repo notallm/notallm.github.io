@@ -1,31 +1,19 @@
-#- title: 
-#  bio: 
-#  stats: 
-#  links: 
-#    - shortname: 
-#      url: 
-
 - title: ClassFrame 
-  bio: Collaborative work platform for assignments and questions.
-  stats: Developed during my Google apprenticeship (summer `23). Got it to 3 high schools and 100+ students in a week of launch, with essentially no marketing.
+  bio: Collaborative work platform for assignments and questions
   url: https://aarushgupta.com/classframe
 
 - title: MemorAI
-  bio: AI-generated flashcards and study tools.
-  stats: Got it to ~170 Irvington students and ~140 others globally bootstrapped in 3 months
+  bio: AI-generated flashcards and study tools
   url: https://aarushgupta.com/memorai
 
 - title: Vektor
-  bio: Educational and interpretable vector database implementation.
-  stats: A full-fledged ~150 line implementation of a vector database with BERT, LSH, and Jaccard similarity for sub-linear line-complexity on searches.
+  bio: Educational and interpretable vector database implementation
   url: https://github.com/notallm/vektor
 
 - title: Sanity
-  bio: Toy bootloader < Sanity < Arch Linux.
-  stats: Features a GDT/IDT, PIC, pages, fault handler, heap, task queue, and a rudimentary keyboard driver. Made to remain small and to be the easiest system to add new architectures to.
+  bio: Small operating system that aims to easily integrate any architecture
   url: https://github.com/notallm/sanity
 
 - title: Oscar
-  bio: Efficient garbage collector for C.
-  stats: Essentially a sub-200 line implementation of mark-and-sweep with some neat tweaks.
+  bio: Efficient garbage collector for C
   url: https://github.com/notallm/oscar

@@ -2,9 +2,7 @@
 layout: base
 ---
 
-<div style = "float: right">
-</div>
-<b>Aarush Gupta</b>
+<center><h3 class = "title">Aarush Gupta</h3></center>
 
 <br><br><br>
 <div>
@@ -17,10 +15,10 @@ layout: base
 <br><br>
 
 {% for work in site.data.work %}
-    <p><b><a href = "{{ work.url }}">{{ work.title }}</a></b></p>
-    <i>{{ work.bio }}</i>
-    <p>{{ work.stats }}</p>
-    <br>
+    <div class = "work">
+        <a href = "{{ work.url }}" class = "work__title">{{ work.title }}</a>
+        <span class = "work__bio">{{ work.bio }}</span>
+    </div>
 {% endfor %}
 
 <br><br>
