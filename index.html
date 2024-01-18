@@ -17,7 +17,7 @@ layout: base
 {% for work in site.data.work %}
     <div class = "work">
         <a href = "{{ work.url }}" class = "work__title">{{ work.title }}</a>
-        <span class = "work__bio">{{ work.bio }}</span>
+        <span class = "work__bio">{{ work.bio }} <span class = "work__year">{{ work.year }}</span></span>
     </div>
 {% endfor %}
 
