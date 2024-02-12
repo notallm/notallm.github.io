@@ -60,7 +60,14 @@ main {
 
 .projects {
     margin: 40px 0;
-    line-height: 13px;
+    line-height: 15px;
+}
+
+.status {
+    padding: 3px;
+    margin: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
 }
 
 .date {
@@ -70,7 +77,6 @@ main {
 .desc {
     margin-right: 16px;
 }
-
 
 hr {
     margin: 25px 0px;

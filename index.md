@@ -13,15 +13,17 @@ I like to think the growth of my projects over time represents just how much I'v
 
 <div class = "projects">
 {% for project in site.data.projects %}
-<span class = "date"><span class = "desc">{{ project.desc }}</span>{{ project.year }}</span>
+<span class = "date">
+<span class = "desc">{{ project.desc }}</span>
+{{ project.year }}
+</span>
 
 {% if project.url %}
 <a href = "{{ project.url }}">{{ project.name }}</a>
-
 {% else %}
 <p>{{ project.name }}</p>
-
 {% endif %}
+{% if project.status %}<span class = "status">{{ project.status }}</span>{% endif %}
 <br><br>
 
 {% endfor %}
