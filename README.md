@@ -1,2 +1,3 @@
-# [aarushgupta.com](https://aarushgupta.com)
-my personal corner of the internet
+# aarushgupta.com
+
+My personal webiste, availabe at [aarushgupta [dot] com](https://aarushgupta.com)

@@ -1,0 +1,29 @@
+- name: TextbookGPT
+  desc: Your personalized chatbot to ace AP World History
+  url: https://book.lipsti.cc
+  year: 2024
+
+- name: ClassFrame 
+  desc: Collaborative work platform for assignments and questions
+  url: https://aarushgupta.com/classframe
+  year: 2023
+
+- name: Vektor
+  desc: Educational and interpretable vector database implementation
+  url: https://github.com/notallm/vektor
+  year: 2023
+
+- name: MemorAI
+  desc: AI-generated flashcards and study tools
+  url: https://aarushgupta.com/memorai
+  year: 2023
+
+- name: Sanity
+  desc: Small operating system that aims to easily integrate any architecture
+  url: https://github.com/notallm/sanity
+  year: 2022
+
+- name: Oscar
+  desc: Efficient garbage collector for C
+  url: https://github.com/notallm/oscar
+  year: 2022
