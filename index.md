@@ -4,7 +4,7 @@ layout: base
 
 I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms. I love to work on research, product, and nice problems.
 
-I am currently working on [Lipsti.cc](https://lipsti.cc), a venture studio building high-impact AI products and experiences.
+I am currently working on building [Lipsti.cc](https://lipsti.cc), a research studio building AI experiences to augment human thought and creativity. 
 Check out our first flagship product, [TextbookGPT](https://book.lipsti.cc).
 
 Previously an engineering summer apprentice at Google. Developed [Classframe](https://aarushgupta.com/classframe).
