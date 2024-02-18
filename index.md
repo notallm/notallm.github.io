@@ -2,7 +2,8 @@
 layout: base
 ---
 
-I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modelling, and applications of algorithms. I love to work on research, product, and nice problems.
+I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modeling, and applications of algorithms. I love to work on research, product, and nice problems.
+I also love philosophy and to think. 
 
 I am currently working on building [Lipsti.cc](https://lipsti.cc), a research studio building AI experiences to augment human thought and creativity. 
 Check out our first flagship product, [TextbookGPT](https://book.lipsti.cc).
@@ -28,6 +29,9 @@ I like to think the growth of my projects over time represents just how much I'v
 
 {% endfor %}
 </div>
+
+<img src = "{{ "/assets/header.jpg" | relative_url }}">
+<p class = "caption">Hieronymus Bosch</p>
 
 <footer>
     <a href = "https://twitter.com/notallm" target = "_blank"><i class = "bi bi-twitter"></i></a>
