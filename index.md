@@ -5,12 +5,14 @@ layout: base
 I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modeling, and applications of algorithms. I love to work on research, product, and nice problems.
 I also love philosophy and to think. 
 
-I am currently working on building [Lipsti.cc](https://lipsti.cc), a research studio building AI experiences to augment human thought and creativity. 
+I am currently working on AI inference research at [OpenMachine](https://openmachine.ai) and pursuing independent research on various technologies.
+
+I am building [Lipsti.cc](https://lipsti.cc) on the side, a research studio building AI experiences to augment human thought and creativity. 
 Check out our first flagship product, [TextbookGPT](https://book.lipsti.cc).
 
 Previously an engineering summer apprentice at Google. Developed [Classframe](https://aarushgupta.com/classframe).
 
-I like to think the growth of my projects over time represents just how much I've learned over the years.
+I like to imagine that the growth of my projects over time represents how much I've learned over the years.
 
 <div class = "projects">
 {% for project in site.data.projects %}
