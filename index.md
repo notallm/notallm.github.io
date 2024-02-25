@@ -5,7 +5,7 @@ layout: base
 I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modeling, and applications of algorithms. I love to work on research, product, and nice problems.
 I also love philosophy and to think. 
 
-I am currently working on AI inference research at [OpenMachine](https://openmachine.ai) and pursuing independent research on various technologies.
+I am currently working as an AI inference research intern at a Mozilla-backed [stealth startup](https://en.wikipedia.org/wiki/Stealth_startup) and pursuing independent research on various technologies.
 
 I am building [Lipsti.cc](https://lipsti.cc) on the side, a research studio building AI experiences to augment human thought and creativity. 
 Check out our first flagship product, [TextbookGPT](https://book.lipsti.cc).
