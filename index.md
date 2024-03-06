@@ -2,17 +2,16 @@
 layout: base
 ---
 
-I am a creative builder interested in A(G)I, NLP, generative AI, efficient data modeling, and applications of algorithms. I love to work on research, product, and nice problems.
-I also love philosophy and to think. 
+I am a creative builder and researcher interested in A(G)I, NLP, generative AI, efficient data modeling, and applications of algorithms. I love to work on products and nice problems.
 
 I am currently working as an AI inference research intern at a Mozilla-backed [stealth startup](https://en.wikipedia.org/wiki/Stealth_startup) and pursuing independent research on various technologies.
 
-I am building [Lipsti.cc](https://lipsti.cc) on the side, a research studio building AI experiences to augment human thought and creativity. 
-Check out our first flagship product, [TextbookGPT](https://book.lipsti.cc).
+I am building [Lipsti.cc](https://lipsti.cc) on the side, a product studio building AI experiences to augment human thought and creativity. 
+Check out our first product, [TextbookGPT](https://book.lipsti.cc).
 
-Previously an engineering summer apprentice at Google. Developed [Classframe](https://aarushgupta.com/classframe).
+Previously an engineering summer apprentice at Google. Developed [Classframe](https://aarushgupta.com/classframe). I also did some independent research with Phil Mui, PhD (SVP at Salesforce AI).
 
-I like to imagine that the growth of my projects over time represents how much I've learned over the years.
+I love reading, thinking, volleyball, and logic. I was born in San Diego and brought up in the Bay Area.
 
 <div class = "projects">
 {% for project in site.data.projects %}
